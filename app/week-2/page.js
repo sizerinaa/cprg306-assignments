@@ -4,7 +4,7 @@ import StudentInfo from "./student-info";
 export default function shoppingList () {
     return(
         <main>
-            <h1>Shopping List</h1>
+            <h1>Student Info</h1>
             <StudentInfo/>
 
         </main>
