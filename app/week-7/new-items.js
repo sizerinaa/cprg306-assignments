@@ -24,7 +24,7 @@ export default function NewItem({ onAddItem }) {
 
   return (
     <form onSubmit={handleSubmit} className="mb-6 p-4 bg-white rounded shadow-md">
-      <h2 className="text-xl font-semibold text-green-600 mb-4">Add New Item</h2>
+      <h2 className="text-xl font-semibold text-blue-600 mb-4">Add New Item</h2>
       
       <label className="block text-gray-700 font-medium mb-2">Name</label>
       <input
@@ -33,7 +33,7 @@ export default function NewItem({ onAddItem }) {
         onChange={(e) => setName(e.target.value)}
         required
         placeholder="Enter item name"
-        className="w-full px-4 py-2 mb-4 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
+        className="w-full px-4 py-2 mb-4 border border-blue-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
       />
       
       <label className="block text-gray-700 font-medium mb-2">Quantity</label>
@@ -43,14 +43,14 @@ export default function NewItem({ onAddItem }) {
         max="20"
         value={quantity}
         onChange={(e) => setQuantity(parseInt(e.target.value))}
-        className="w-full px-4 py-2 mb-4 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
+        className="w-full px-4 py-2 mb-4 border border-blue-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
       />
 
       <label className="block text-gray-700 font-medium mb-2">Category</label>
       <select
         value={category}
         onChange={(e) => setCategory(e.target.value)}
-        className="w-full px-4 py-2 mb-4 border border-green-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
+        className="w-full px-4 py-2 mb-4 border border-blue-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
       >
         <option value="produce">Produce</option>
         <option value="dairy">Dairy</option>
@@ -65,7 +65,7 @@ export default function NewItem({ onAddItem }) {
         <option value="other">Other</option>
       </select>
       
-      <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-300">
+      <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
         Add Item
       </button>
     </form>

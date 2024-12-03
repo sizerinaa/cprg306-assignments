@@ -46,7 +46,7 @@ export default function MealIdeas({ ingredient }) {
 
   return (
     <div className="meal-ideas bg-white p-6 rounded shadow-lg">
-      <h2 className="text-2xl font-semibold text-green-600 mb-4">Meal Ideas for "{ingredient}"</h2>
+      <h2 className="text-2xl font-semibold text-blue-600 mb-4">Meal Ideas for "{ingredient}"</h2>
       <ul className="space-y-4">
         {meals.length > 0 ? (
           meals.map(meal => (

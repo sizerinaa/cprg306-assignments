@@ -21,7 +21,7 @@ export default function Page() {
 
   return (
     <main className="container mx-auto mt-8 p-4 bg-gray-100 rounded-lg shadow">
-      <h1 className="text-3xl font-bold text-green-600 mb-6">Shopping List App</h1>
+      <h1 className="text-3xl font-bold text-blue-600 mb-6">Shopping List App</h1>
       
       <div className="flex">
         <div className="w-1/2">
